@@ -1,0 +1,226 @@
+body {
+	perspective: 900px;
+	background-image: url('images/background.svg');
+	font-family: 'Roboto', sans-serif;
+}
+
+.hide {
+	display: none;
+}
+
+.reload{
+	color: white;
+	background-color: green;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 7px;
+	border-radius: 5px;
+}
+
+#btn {
+	background-color: green;
+	font-size: 30px;
+	color: white;
+	border: 5px solid rgb(3, 87, 3);
+	border-radius: 5px;
+	height: 60px;
+	width: 90px;
+	cursor: pointer;
+}
+
+
+.grid {
+	border: 20px solid rgb(212, 52, 52);
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 104vh;
+	height: 72vh;
+	transform: rotateX(20deg);
+	box-shadow: 10px 10px 5px grey;
+}
+
+.grid div {
+	width: 8vh;
+	height: 8vh;
+}
+
+.ending-block {
+	background-color: green!important;
+}
+
+.frog {
+	background-image: url('images/frog.gif')!important;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+  .car {
+	background-color: rgb(58, 57, 57);
+  }
+
+  .sand {
+	  background-color: rgb(247, 247, 66);
+  }
+
+  .log {
+	  background-color: rgb(126, 126, 252);
+  }
+
+  .blood{
+	  background-color: red;
+  }
+
+
+/* Cars Right 1 */
+
+.r1.s1{
+	background-image: url('images/1.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.r1.s5{
+	background-image: url('images/2.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.r1.s9{
+	background-image: url('images/3.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+/* Cars Left */
+
+
+.l.s1{
+	background-image: url('images/1l.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.l.s3{
+	background-image: url('images/2l.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.l.s6{
+	background-image: url('images/3l.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.l.s8{
+	background-image: url('images/4l.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.l.s11{
+	background-image: url('images/5l.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/* Cars Right 2 */
+
+
+.r2.s4{
+	background-image: url('images/4.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.r2.s7{
+	background-image: url('images/5.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.r2.s10{
+	background-image: url('images/1.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.r2.s13{
+	background-image: url('images/2.png')!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/* Log Left 1 */
+
+.l1.s1{
+	background-color: rgb(110, 44, 44);
+}
+.l1.s2 {
+	background-color: rgb(110, 44, 44);
+}
+.l1.s3 {
+	background-color: rgb(110, 44, 44);
+}
+
+.l1.s6 {
+	background-color: rgb(110, 44, 44);
+}
+.l1.s7 {
+	background-color: rgb(110, 44, 44);
+}
+.l1.s8 {
+	background-color: rgb(110, 44, 44);
+}
+
+.l1.s11 {
+	background-color: rgb(110, 44, 44);
+}
+.l1.s12 {
+	background-color: rgb(110, 44, 44);
+}
+.l1.s13 {
+	background-color: rgb(110, 44, 44);
+}
+
+
+/* Log Right */
+
+.r.s4 {
+	background-color: rgb(110, 44, 44);
+}
+.r.s5 {
+	background-color: rgb(110, 44, 44);
+}
+.r.s8 {
+	background-color: rgb(110, 44, 44);
+}
+.r.s9 {
+	background-color: rgb(110, 44, 44);
+}
+.r.s12 {
+	background-color: rgb(110, 44, 44);
+}
+.r.s13 {
+	background-color: rgb(110, 44, 44);
+}
+
+/* Log Left 2 */
+
+.l2.s3 {
+	background-color: rgb(110, 44, 44);
+}
+.l2.s4 {
+	background-color: rgb(110, 44, 44);
+}
+.l2.s9 {
+	background-color: rgb(110, 44, 44);
+}
+.l2.s10 {
+	background-color: rgb(110, 44, 44);
+}

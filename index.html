@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js"></script>
+</head>
+<body>
+	<center>
+       <div id="control">
+              <img src="images/logo.png" style="height: 120px;" alt=""><br>
+              <img src="images/cover.gif" alt="" style="height: 300px;"><br>
+              <button id="btn">Start</button>
+              <div style="color: green;font-size: 30px;margin-top: 60px;">Made with ❤ By <a href="https://twitter.com/MarkSShenouda" style="color: green;">Mark S. Shenouda</a></div>
+       </div>
+
+	<div id="playground" class="hide">
+              <div id="time-display" style="font-size: 40px;color: green;font-weight: 1000;">Seconds left: <span id="time-left">20</span></div>
+              <div id="lose-display" class="hide" style="font-size: 40px;color: red;">You Lose! <a class="reload" href="/">Play again</a></div>
+              <div id="win-display" class="hide" style="font-size: 40px;color: blue;">You Win! 🎉🎉🎉 <a class="reload" href="/">Play again</a></div>
+              <div class="grid">
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="ending-block"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+       
+                     <div class="log left l2 s1"></div>
+                     <div class="log left l2 s2"></div>
+                     <div class="log left l2 s3"></div>
+                     <div class="log left l2 s4"></div>
+                     <div class="log left l2 s5"></div>
+                     <div class="log left l2 s6"></div>
+                     <div class="log left l2 s7"></div>
+                     <div class="log left l2 s8"></div>
+                     <div class="log left l2 s9"></div>
+                     <div class="log left l2 s10"></div>
+                     <div class="log left l2 s11"></div>
+                     <div class="log left l2 s12"></div>
+                     <div class="log left l2 s13"></div>
+       
+                     <div class="log right r s1"></div>
+                     <div class="log right r s2"></div>
+                     <div class="log right r s3"></div>
+                     <div class="log right r s4"></div>
+                     <div class="log right r s5"></div>
+                     <div class="log right r s6"></div>
+                     <div class="log right r s7"></div>
+                     <div class="log right r s8"></div>
+                     <div class="log right r s9"></div>
+                     <div class="log right r s10"></div>
+                     <div class="log right r s11"></div>
+                     <div class="log right r s12"></div>
+                     <div class="log right r s13"></div>
+       
+                     <div class="log left l1 s1"></div>
+                     <div class="log left l1 s2"></div>
+                     <div class="log left l1 s3"></div>
+                     <div class="log left l1 s4"></div>
+                     <div class="log left l1 s5"></div>
+                     <div class="log left l1 s6"></div>
+                     <div class="log left l1 s7"></div>
+                     <div class="log left l1 s8"></div>
+                     <div class="log left l1 s9"></div>
+                     <div class="log left l1 s10"></div>
+                     <div class="log left l1 s11"></div>
+                     <div class="log left l1 s12"></div>
+                     <div class="log left l1 s13"></div>
+       
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+       
+                     <div class="car right r2 s1"></div>
+                     <div class="car right r2 s2"></div>
+                     <div class="car right r2 s3"></div>
+                     <div class="car right r2 s4"></div>
+                     <div class="car right r2 s5"></div>
+                     <div class="car right r2 s6"></div>
+                     <div class="car right r2 s7"></div>
+                     <div class="car right r2 s8"></div>
+                     <div class="car right r2 s9"></div>
+                     <div class="car right r2 s10"></div>
+                     <div class="car right r2 s11"></div>
+                     <div class="car right r2 s12"></div>
+                     <div class="car right r2 s13"></div>
+       
+                     <div class="car left l s1"></div>
+                     <div class="car left l s2"></div>
+                     <div class="car left l s3"></div>
+                     <div class="car left l s4"></div>
+                     <div class="car left l s5"></div>
+                     <div class="car left l s6"></div>
+                     <div class="car left l s7"></div>
+                     <div class="car left l s8"></div>
+                     <div class="car left l s9"></div>
+                     <div class="car left l s10"></div>
+                     <div class="car left l s11"></div>
+                     <div class="car left l s12"></div>
+                     <div class="car left l s13"></div>
+       
+                     <div class="car right r1 s1"></div>
+                     <div class="car right r1 s2"></div>
+                     <div class="car right r1 s3"></div>
+                     <div class="car right r1 s4"></div>
+                     <div class="car right r1 s5"></div>
+                     <div class="car right r1 s6"></div>
+                     <div class="car right r1 s7"></div>
+                     <div class="car right r1 s8"></div>
+                     <div class="car right r1 s9"></div>
+                     <div class="car right r1 s10"></div>
+                     <div class="car right r1 s11"></div>
+                     <div class="car right r1 s12"></div>
+                     <div class="car right r1 s13"></div>
+       
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+                     <div class="sand"></div>
+              </div>
+              <div style="color: green;font-size: 30px;margin-top: 30px;">Made with ❤ By <a href="https://twitter.com/MarkSShenouda" style="color: green;">Mark S. Shenouda</a></div>
+       </div>
+       </center>
+</body>
+</html>
